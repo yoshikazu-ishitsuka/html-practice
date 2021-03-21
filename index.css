@@ -3,6 +3,14 @@
   padding: 24px 32px;
 }
 
+.person-logo {
+  margin-right: 5px;
+}
+
+.country-logo {
+  margin-right: 5px;
+}
+
 .header {
   display: flex;
   width: 100%;
@@ -33,12 +41,14 @@
   font-weight: bold;
   color: #2b546a;
   margin-top: 50px;
+  letter-spacing: 0.03em;
 }
 
 .body-top__under {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5px;
 }
 
 .body-top__under p {
@@ -49,6 +59,7 @@
   font-size: 15px;
   color: #2b546a;
   letter-spacing: 0.03em;
+  font-family: sans-serif;
 }
 
 .body-top__under__color__user {
