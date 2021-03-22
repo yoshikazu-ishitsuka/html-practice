@@ -27,13 +27,38 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  /* margin-right: 45px; */
 }
 
 .header-list li {
-  margin-right: 45px;
+  margin-right: 41px;
   flex-grow: 1;
   font-size: 14px;
 }
+
+.header-link {
+  text-decoration: none;
+  color: #2b546a;
+}
+
+.header-link:hover {
+  transition: 0.3s;
+  background-color: rgba(0, 0, 0, 0.8);
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  padding: 20px 10px;
+  /* width: 200px; */
+  display: block;
+  text-align: center;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* background-color: #000066; リンクにマウスが乗ったら背景色を変更する */
+
+  /* line-height: 100px; */
+}
+
+/* .header-list:hover {
+  background-color: #000066; リンクにマウスが乗ったら背景色を変更する
+} */
 
 .member-registration {
   text-decoration: none;
