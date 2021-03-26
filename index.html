@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="reset.css">
+  <script type="text/javascript" src="index.js"></script>
   <title>Progate</title>
 </head>
 
@@ -14,9 +15,21 @@
   <header class="header">
     <img class="logo" src="img/logo.svg" alt="logo">
     <ul class="header-list">
-      <li>法人プラン</li>
-      <li>言語</li>
-      <li>ログイン</li>
+      <li><a href="#" class="header-link">法人プラン</a></li>
+      <li><a href="#" class="header-link">言語</a></li>
+      <!--
+      <div class="dropdown">
+        <button class="dropdown__btn" id="dropdown__btn">
+        </button>
+        <div class="dropdown__body">
+          <ul class="dropdown__list">
+            <li class="dropdown__item"><a href="#" class="header-link">日本語</a></li>
+            <li class="dropdown__item"><a href="#" class="header-link">English</a></li>
+          </ul>
+        </div>
+      </div> -->
+
+      <li><a href="#" class="header-link">ログイン</a></li>
       <li><button class="btn member-btn"><a href="#" class="link member-registration">無料会員登録</a></button></li>
     </ul>
   </header>
@@ -41,7 +54,15 @@
     <img class="slide-image" src="img/slide.jpeg" alt="image">
   </div>
 
+  <div>
+    <p class="body-top-third">イラスト中心のスライドで学ぶ</p>
+    <p class="body-top-third__under">紙の本よりも直感的で、動画よりも学びやすい、「スライド学習」を採用しました。<br>
+      自分のペースで学習できること、復習しやすいことが強みです。</p>
+  </div>
 
+  <div class="slide-image-class">
+    <img class="slide-image slide-hello" src="img/hello.jpeg" alt="image">
+  </div>
 </body>
 
 </html>
