@@ -43,13 +43,14 @@
 
 .header-link:hover {
   transition: 0.3s;
-  background-color: rgba(0, 0, 0, 0.8);
-  /* padding-top: 20px;
-  padding-bottom: 20px; */
-  padding: 20px 10px;
-  /* width: 200px; */
+  background-color: rgba(248, 246, 246, 0.8);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* padding: 20px auto; */
+  width: 70px;
   display: block;
   text-align: center;
+  /* overflow: hidden; */
   /* background-color: rgba(255, 255, 255, 0.8); */
   /* background-color: #000066; リンクにマウスが乗ったら背景色を変更する */
 
@@ -155,4 +156,27 @@
 .slide-image {
   width: 1000px;
   /* height: 373px; */
+}
+
+.slide-hello {
+  margin-top: 88px;
+}
+
+.body-top-third {
+  text-align: center;
+  font-size: 32px;
+  /* font-size: 2rem; */
+  font-weight: bold;
+  color: #2b546a;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.7142857143;
+}
+
+.body-top-third__under {
+  font-size: 1rem;
+  text-align: center;
+  color: #8491a5;
+  line-height: 2;
 }
